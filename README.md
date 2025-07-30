@@ -1,6 +1,6 @@
-# ⚙️ RapidFox: Zen/Firefox Optimization Guide (v7: 30 July 2025)
+# ⚙️ RapidFox: Zen/Firefox Optimization Guide (v7.0)
 
-A highly structured and comprehensive performance guide for Firefox/Zen Browser users seeking peak responsiveness, efficiency, and memory management optimized for 4GB, 8GB, and 16GB RAM systems.
+A highly structured and comprehensive performance guide for Firefox/Zen Browser users seeking peak responsiveness, efficiency and memory management optimized for 4GB, 8GB and 16GB RAM systems.
 
 **🧪 Tested Performance Improvement:** [Speedometer 3.1](https://browserbench.org/Speedometer3.0/) benchmark on 2016 ASUS laptop (i5-6300HQ, 8GB RAM, GTX 960M, 70 Mbps) improved from **6.90 → 10.10 (+47%)** with these optimizations.
 
@@ -57,8 +57,8 @@ A highly structured and comprehensive performance guide for Firefox/Zen Browser 
 - **Power**: High Performance power plan enabled
 - **Windows 11**: Consider enabling Hardware Accelerated GPU Scheduling (HAGS)
 
-### YouTube & Content-Heavy Website Performance
-These optimizations significantly improve performance on YouTube, streaming sites, and multimedia-heavy content by optimizing media caching, GPU acceleration, and connection management. Settings are continuously evolving as Zen developers improve the browser over time.
+### Content-Heavy Website Performance
+These optimizations significantly improve performance on multimedia-heavy content by optimizing media caching, GPU acceleration and connection management. Settings are continuously evolving as Zen developers improve the browser over time.
 
 ---
 
@@ -779,10 +779,8 @@ Solutions for problems that may arise after applying optimizations.
 
 ## Conclusion
 
-This comprehensive optimization guide provides a systematic approach to maximizing Zen Browser and Firefox performance while maintaining security and stability. The settings are organized by function and risk level, with specific recommendations for 4GB, 8GB, and 16GB+ RAM systems to help users make informed decisions based on their hardware capabilities.
-
 Key improvements in this version include RAM-specific configurations, enhanced smooth scrolling optimizations, YouTube and content-heavy website performance improvements, comprehensive user.js guidance, and removal of settings that are already enabled by default in modern Firefox/Zen versions.
 
 Remember that browser updates may change default values, so revisit these settings after major version upgrades. All settings are subject to change as Zen developers continue improving the browser over time. Start with the safer optimizations and gradually implement advanced settings based on your comfort level and specific needs.
 
-**Performance Results**: With these optimizations properly applied and configured for your RAM capacity, users can expect 30-50% improvements in benchmark scores and significantly better real-world browsing responsiveness, memory efficiency, and multimedia performance.
+**Performance Results**: With these optimizations properly applied and configured for your RAM capacity, users can expect 30-50% improvements in benchmark scores and significantly better real-world browsing responsiveness, memory efficiency, and multimedia performance. 
