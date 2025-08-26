@@ -4,14 +4,14 @@ A highly structured and comprehensive performance guide for Firefox/Zen Browser 
 
 **🧪 Tested Performance Improvement:** [Speedometer 3.1](https://browserbench.org/Speedometer3.0/) benchmark on 2016 ASUS laptop (i5-6300HQ, 8GB RAM, GTX 960M, 70 Mbps) improved from **6.90 → 10.10 (+47%)** with these optimizations.
 
-# > [Open The Optimization Guide](https://github.com/Eratas/rapidfox/wiki/Guide)
+# > [Open The Optimization Guide](https://github.com/Eratas/rapidfox/wiki/)
 
 ## > [Featured on Reddit](https://www.reddit.com/r/zen_browser/comments/1l3y35d/zen_optimizations/)
 
 
-## Why V8.0 will be the final version
+## Why v7.2 will be the final version
 
-After testing almost all avaiable browsers, I went back on Vivaldi; everything is so much better now.
+After testing almost all avaiable browsers, I choose Vivaldi; everything is so much better now.
 
 Unoptimized Firefox gets a DOM score of ~7 for me, ~85 for web assembly & javascript and ~500 for 3D (with 2 GPU incompatibility).
 
