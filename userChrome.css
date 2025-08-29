@@ -1,0 +1,84 @@
+/* ==================================
+   ZEN BROWSER - SIMPLE COMPACT THEME
+   ================================== */
+
+/* === CORE VARIABLES === */
+:root {
+  --zen-border-radius: 0px !important;
+  --zen-toolbar-height: 29px !important;
+  --tab-min-height: 28px !important;
+  --zen-workspace-indicator-height: 38px !important;
+  --toolbarbutton-outer-padding: 1px !important;
+  --zen-toolbar-element-bg: light-dark(rgba(88,88,88,.05), rgba(255,255,255,.05)) !important;
+  --zen-main-browser-background: rgba(0,0,0,.7) !important;
+  --zen-primary-color: #fff !important;
+}
+
+/* === CLIP-PATH OVERRIDES === */
+@-moz-document url-prefix("chrome:") {
+  .browserContainer, .browserStack { clip-path: none !important; }
+}
+html:not([sizemode="fullscreen"]) .browserStack,
+html:not([sizemode="fullscreen"]) browser { clip-path: none !important; }
+
+/* === SIDEBAR CONTAINER === */
+:root:not([inDOMFullscreen="true"]):not([chromehidden~="location"]):not([chromehidden~="toolbar"]) {
+  #tabbrowser-tabbox #tabbrowser-tabpanels .browserSidebarContainer,
+  #tabbrowser-tabpanels[dragging-split="true"].browserSidebarContainer {
+    :root:not([zen-no-padding="true"]) & {
+      border-radius: 0 8px 0 0 !important;
+      box-shadow: none !important;
+    }
+  }
+}
+
+/* === LAYOUT ADJUSTMENTS === */
+:root:not([inDOMFullscreen="true"]):not([chromehidden~="location"]):not([chromehidden~="toolbar"])[zen-right-side="true"]
+  #zen-tabbox-wrapper { margin: 0 !important; }
+
+/* === SIDEBAR EXPANDED === */
+#navigator-toolbox[zen-sidebar-expanded="true"] {
+  #zen-essentials { --tab-min-height: 36px !important; }
+  #tabbrowser-tabs { --tab-inline-padding: 6px !important; }
+
+  /* Tab tweaks */
+  .tabbrowser-tab:is(:hover, [visuallyselected]) .tab-close-button { margin-inline-end: -2px !important; }
+  .tabbrowser-tab .tab-background { margin-inline: 1px !important; }
+
+  /* Audio button */
+  .tab-audio-button { margin: -1px -3px 0 -5px !important; }
+}
+
+/* === URL BAR === */
+#urlbar-background { margin: 4px !important; }
+#urlbar:not([breakout-extend="true"]):hover #urlbar-background {
+  background-color: light-dark(rgba(88,88,88,.1), rgba(255,255,255,.1)) !important;
+}
+.urlbar-input-container { border: 0 solid transparent !important; }
+
+/* === TOOLBAR === */
+#PersonalToolbar:not([collapsed="true"]) { min-height: 0 !important; }
+#TabsToolbar { --toolbarbutton-inner-padding: calc((var(--tab-min-height) - 20px) / 3) !important; }
+
+/* Bookmarks */
+toolbarbutton.bookmark-item:not(.subviewbutton) {
+  margin: 0 !important;
+  padding: var(--bookmark-block-padding) 2.5px !important;
+}
+
+/* === WORKSPACE & TABS === */
+.zen-workspace-tabs-section:not(.zen-current-workspace-indicator):not(.zen-essentials-container) { padding: 0 2px !important; }
+.zen-essentials-container:not(:empty) { padding-top: 0 !important; }
+.zen-current-workspace-indicator { padding: 8px !important; gap: 4px !important; }
+
+/* Tab audio controls */
+.tab-audio-button { --icon-size-default: 11px !important; }
+
+/* Vertical tabs */
+#tabbrowser-tabs[orient="vertical"] .tab-background { border-radius: 6px !important; }
+
+/* === WINDOW BUTTONS === */
+@media -moz-pref("zen.tabs.vertical") {
+  :root:not([zen-window-buttons-reversed="true"])[zen-right-side="true"]
+    #zen-sidebar-top-buttons .titlebar-buttonbox-container { margin-top: -4px !important; }
+}
