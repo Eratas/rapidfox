@@ -1,4 +1,4 @@
-# ⚡🦊 RapidFox: Simple Zen / Firefox Optimization Guide
+# ⚡🦊 RapidFox: Zen / Firefox Optimization Guide
 
 A highly structured and comprehensive performance guide for Firefox/Zen Browser users seeking peak responsiveness, efficiency and memory management optimized for 4GB, 8GB and 16GB RAM systems.
 
@@ -25,7 +25,7 @@ Google is also pushing forward with a new UI and Skia Graphite (Metal, Vulkan, W
 
 ## Bonus: Compact Zen Theme
 
-So, [here](https://github.com/Eratas/rapidfox/blob/main/userChrome.css) is my sloppy custom CSS for a very compact Zen, with gradient and mica being disabled on this screenshot. Check out the [Zen wiki](https://docs.zen-browser.app/guides/live-editing) if you to install it, I will not update it anymore.
+So, [here](https://github.com/Eratas/rapidfox/blob/main/userChrome.css) is my sloppy custom CSS for a very compact Zen, with gradient and mica being disabled on this screenshot. Check out the [Zen wiki](https://docs.zen-browser.app/guides/live-editing) if you want to install it, but I will not update it anymore.
 
 <img width="1919" height="1033" alt="compact zen" src="https://github.com/user-attachments/assets/962babbc-a23a-441f-b860-3fb045d79b1b" />
 
