@@ -11,16 +11,22 @@ A highly structured and comprehensive performance guide for Firefox/Zen Browser 
 
 ## Why v7.2 will be the final version
 
-After testing almost all avaiable browsers, I choose Vivaldi; everything is so much better now.
+I fell in love with the concept of Arc and Zen, but after thoroughly testing almost every browser available, I ultimately chose Vivaldi - it’s simply better in almost every way.
 
-Unoptimized Firefox gets a DOM score of ~7 for me, ~85 for web assembly & javascript and ~500 for 3D (with 2 GPU incompatibility).
+I’m not trying to make a browser tier list, but here’s what I’ve tested: Chrome, Edge, Arc, Zen, Firefox, Floorp, Librefox, Comet, Brave and a handful of others ones. While some browsers (like Brave) do offer unique features and unique bloats, Vivaldi stands out as the best overall balance for me. For reference, Edge was the only browser where I scored ~14 on DOM performance, while Vivaldi matched Chrome’s results, Arc was the slowest chromium based browser.
 
-After optimization: ~10, ~105 and ~650.
+On the other hand, any unoptimized Firefox gave me a score of ~7 in DOM, ~85 in WebAssembly/JavaScript, and ~500 in 3D (with 2 GPU compatibility issues). After optimization, those numbers improved to ~10, ~105, and ~650 respectively.
 
-Vivaldi gets ~13, ~166, ~1200. Even with custom CSS, fully customized to look similar to Zen/Arc, same privacy, good security (isolation too), less RAM consumption, more compatibility.
+Meanwhile, Vivaldi consistently delivers ~13 DOM, ~166 WebAssembly/JavaScript, and ~1200 in 3D. Even with lots of custom CSS to mimic the look of Zen/Arc, strong privacy settings, proper site isolation, and good security - it still uses less RAM and offers broader compatibility and stability.
 
-New experimental Chrome compiled builds discard old CPU compatibility (before 2011) to gain ~30% more performances, with modifications to SSE4.2, AVX, AES, CFLAGS, LDFLAGS, thinLTO flags, import_instr_limit, LLVM LOOP, -mllvm flags, PGO and other compiler flags.
+On the Chrome side, experimental builds are being compiled with modern CPUs in mind, dropping compatibility for pre-2011 processors in exchange for up to 30% more performance. These builds take advantage of optimizations like SSE4.2, AVX, AES, CFLAGS/LDFLAGS, thinLTO, import_instr_limit, LLVM LOOP, -mllvm flags, PGO, and other compiler tweaks.
 
-They are also actively working on a new UI and Skia Graphite (Metal, Vulkan, WebGPU) with GPU rasterization, which you can already try; I Scored a whopping 2200 score on motion mark, but it is still unstable.
+Google is also pushing forward with a new UI and Skia Graphite (Metal, Vulkan, WebGPU) paired with GPU rasterization. You can already test it, my MotionMark score hit an impressive 2200, though it’s still unstable in practice. GPU rasterization alone, however, runs fine: pages load with both CPU and GPU working in tandem.
 
-GPU rasterization alone works fine, all pages are loaded with the CPU and both GPUs.
+## Bonus: Compact Zen Theme
+
+So, [here](https://github.com/Eratas/rapidfox/blob/main/userChrome.css) is my sloppy custom CSS for a very compact Zen, with gradient and mica being disabled on this screenshot. Check out the [Zen wiki](https://docs.zen-browser.app/guides/live-editing) if you to install it, I will not update it anymore.
+
+<img width="1919" height="1033" alt="compact zen" src="https://github.com/user-attachments/assets/962babbc-a23a-441f-b860-3fb045d79b1b" />
+
+Enjoy.
