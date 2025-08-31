@@ -6,10 +6,10 @@ A highly structured and comprehensive performance guide for Firefox/Zen Browser 
 
 # > [Open The Optimization Guide](https://github.com/Eratas/rapidfox/wiki/)
 
-## > Featured on Reddit[1](https://www.reddit.com/r/zen_browser/comments/1l3y35d/zen_optimizations/) & [2](https://www.reddit.com/r/zen_browser/comments/1n38727/rapidfox_zen_optimization_guide_final_version/)
+## > Featured on Reddit [1](https://www.reddit.com/r/zen_browser/comments/1l3y35d/zen_optimizations/) & [2](https://www.reddit.com/r/zen_browser/comments/1n38727/rapidfox_zen_optimization_guide_final_version/)
 
 
-## Why v7.2 will be the final version
+## Why v7.3 will be the final version
 
 I fell in love with the concept of Arc and Zen, but after thoroughly testing almost every browser available, I ultimately chose Vivaldi - it’s simply better in almost every way.
 
