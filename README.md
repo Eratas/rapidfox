@@ -2,7 +2,7 @@
 
 A highly structured and comprehensive performance guide for Firefox/Zen Browser users seeking peak responsiveness, efficiency and memory management optimized for 4GB, 8GB and 16GB RAM systems.
 
-**🧪 Tested Performance Improvement:** [Speedometer 3.1](https://browserbench.org/Speedometer3.0/) benchmark on 2016 ASUS laptop (i5-6300HQ, 8GB RAM, GTX 960M, 70 Mbps) improved from **6.90 → 10.10 (+47%)** with these optimizations.
+**🧪 Tested Performance Improvement:** [Speedometer 3.1](https://browserbench.org/) benchmark on 2016 ASUS laptop (i5-6300HQ, 8GB RAM, GTX 960M, 70 Mbps) improved from **6.90 → 10.10 (+47%)** with these optimizations.
 
 # > [Open The Optimization Guide](https://github.com/Eratas/rapidfox/wiki/)
 
