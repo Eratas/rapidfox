@@ -6,7 +6,7 @@ A highly structured and comprehensive performance guide for Firefox/Zen Browser 
 
 # > [Open The Optimization Guide](https://github.com/Eratas/rapidfox/wiki/)
 
-## > [Featured on Reddit](https://www.reddit.com/r/zen_browser/comments/1l3y35d/zen_optimizations/)
+## > Featured on Reddit[1](https://www.reddit.com/r/zen_browser/comments/1l3y35d/zen_optimizations/) & [2](https://www.reddit.com/r/zen_browser/comments/1n38727/rapidfox_zen_optimization_guide_final_version/)
 
 
 ## Why v7.2 will be the final version
